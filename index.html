@@ -1,0 +1,674 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portofolio - Fatmalia</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <style>
+        html { scroll-behavior: smooth; }
+        .bg-soft-pink { background-color: #FFCED8; }
+        .bg-soft-blue { background-color: #B0CDE6; }
+        .text-soft-pink { color: #d67a8c; }
+        .text-soft-blue { color: #4b7da3; }
+        .border-soft-pink { border-color: #FFCED8; }
+        .border-soft-blue { border-color: #B0CDE6; }
+        .bg-glass { background: rgba(255, 255, 255, 0.85); backdrop-filter: blur(10px); }
+        .gradient-bg { background: linear-gradient(135deg, #FFCED8 0%, #ffffff 50%, #B0CDE6 100%); }
+        .photo-crop {
+            object-fit: cover;
+            object-position: center 20%;
+        }
+    </style>
+</head>
+<body class="bg-gray-50 text-gray-800 font-sans antialiased">
+
+    <!-- Navigation Bar -->
+    <nav class="fixed top-0 left-0 w-full bg-glass shadow-sm z-50 transition-all border-b border-pink-100">
+        <div class="max-w-6xl mx-auto px-6 py-4 flex justify-between items-center">
+            <a href="#" class="text-xl font-bold text-gray-800 tracking-wide">Fatmalia<span class="text-pink-400">.</span></a>
+            <div class="hidden md:flex space-x-8 font-medium text-gray-600">
+                <a href="#about" class="hover:text-pink-400 transition">Tentang</a>
+                <a href="#experience" class="hover:text-pink-400 transition">Pengalaman</a>
+                <a href="#projects" class="hover:text-pink-400 transition">Proyek Akademik</a>
+                <a href="#certificates" class="hover:text-pink-400 transition">Sertifikat</a>
+                <a href="#skills" class="hover:text-pink-400 transition">Keahlian</a>
+                <a href="#contact" class="hover:text-pink-400 transition">Kontak</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="pt-32 pb-20 px-6 max-w-6xl mx-auto gradient-bg rounded-b-3xl shadow-sm">
+        <div class="flex flex-col-reverse md:flex-row items-center justify-between gap-12">
+            
+            <!-- Teks Hero -->
+            <div class="space-y-6 md:w-2/3">
+                <span class="px-4 py-1.5 bg-white text-gray-700 rounded-full text-sm font-semibold tracking-wide shadow-sm border border-pink-200">
+                    Information Systems Student | Aspiring Data Analyst & System Analyst
+                </span>
+                
+                <h1 class="text-3xl md:text-4xl font-bold text-gray-900 tracking-tight leading-snug">
+                    Halo, Saya <span class="text-pink-500 font-extrabold">Fatmalia</span> 👋
+                </h1>
+                
+                <p class="text-base md:text-lg text-gray-700 leading-relaxed text-justify">
+                    Mahasiswa Sistem Informasi Institut Teknologi PLN yang tertarik pada analisis data, pengolahan informasi, dan pemanfaatan teknologi untuk menghasilkan insight yang mendukung pengambilan keputusan.
+                </p>
+                
+                <div class="flex flex-wrap gap-4 pt-2">
+                    <a href="#contact" class="px-6 py-3 bg-pink-400 text-white rounded-lg font-medium shadow-md hover:bg-pink-500 transition">Hubungi Saya</a>
+                    <a href="https://www.linkedin.com/in/fatmalia-%E2%80%8E-4796b8411/" target="_blank" class="px-6 py-3 bg-white border border-blue-200 rounded-lg font-medium text-blue-700 hover:bg-blue-50 transition flex items-center gap-2 shadow-sm">
+                        <i class="fab fa-linkedin text-blue-500"></i> LinkedIn Profile
+                    </a>
+                </div>
+            </div>
+
+            <!-- Foto Profil -->
+            <div class="md:w-1/3 flex justify-center">
+                <div class="relative w-64 h-64 md:w-72 md:h-72 rounded-full p-2 bg-gradient-to-tr from-[#FFCED8] to-[#B0CDE6] shadow-lg overflow-hidden">
+                    <img src="WhatsApp Image 2026-11-02 at 12.38.33.jpeg" 
+                         alt="Foto Fatmalia" 
+                         class="w-full h-full rounded-full border-4 border-white shadow-inner"
+                         style="object-fit: cover; object-position: center 92%; transform: scale(1.65);">
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-16 bg-white border-y border-pink-100">
+        <div class="max-w-6xl mx-auto px-6">
+            <h2 class="text-3xl font-bold text-gray-900 mb-8 border-b-4 border-[#FFCED8] w-max pb-1">Tentang Saya</h2>
+            
+            <div class="grid md:grid-cols-2 gap-8 items-center">
+                <div class="text-gray-600 leading-relaxed text-justify">
+                    <p>
+                        Dalam menjalankan tanggung jawab, saya terbiasa bekerja secara terstruktur, memperhatikan detail, dan menyelesaikan tugas dengan penuh tanggung jawab. Pengalaman dalam kegiatan akademik maupun organisasi membantu saya mengembangkan kemampuan komunikasi, koordinasi, dan kolaborasi lintas tim. Saya terus berupaya meningkatkan kompetensi serta memperluas pengalaman agar dapat memberikan kontribusi yang baik dalam lingkungan profesional.
+                    </p>
+                </div>
+
+                <div class="bg-[#B0CDE6]/20 p-6 rounded-2xl border border-[#B0CDE6]/40 space-y-4 shadow-sm text-center">
+                    <div class="flex items-center justify-center gap-3">
+                        <i class="fas fa-university text-blue-600 text-lg"></i>
+                        <span class="font-semibold text-gray-800 text-lg">Institut Teknologi PLN</span>
+                    </div>
+                    <div class="flex items-center justify-center gap-3 text-gray-700">
+                        <i class="fas fa-graduation-cap text-blue-600"></i>
+                        <span>S1 Sistem Informasi</span>
+                    </div>
+                    <div class="flex items-center justify-center gap-3 text-gray-700">
+                        <i class="fas fa-map-marker-alt text-blue-600"></i>
+                        <span>Cengkareng, Jakarta Barat</span>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="py-16 max-w-6xl mx-auto px-6">
+        <h2 class="text-3xl font-bold text-gray-900 mb-12 border-b-4 border-[#B0CDE6] w-max pb-1">Pengalaman</h2>
+        
+        <div class="space-y-10 relative before:hidden md:before:block before:absolute before:inset-0 before:left-1/2 before:-ml-px before:w-0.5 before:bg-pink-200">
+
+            <!-- Item 1: Student Worker -->
+            <div class="flex flex-col md:flex-row items-center justify-between gap-8 relative group">
+                <!-- Foto Kiri -->
+                <div class="w-full md:w-1/2">
+                    <div class="h-64 md:h-80 rounded-2xl overflow-hidden border border-blue-100 shadow-sm hover:shadow-md transition">
+                        <img src="meet onlen BKM.jpeg" 
+                             alt="Student Worker BKM ITPLN" 
+                             class="w-full h-full object-cover object-center hover:scale-105 transition duration-300">
+                    </div>
+                </div>
+                <!-- Titik Timeline Tengah -->
+                <div class="hidden md:flex absolute left-1/2 -translate-x-1/2 items-center justify-center w-8 h-8 rounded-full bg-[#B0CDE6] text-white z-10 shadow">
+                    <i class="fas fa-briefcase text-xs text-blue-800"></i>
+                </div>
+                <!-- Teks Kanan (Muat Sempurna & Rata Kiri-Kanan) -->
+                <div class="w-full md:w-1/2 bg-white p-6 rounded-2xl border border-blue-100 shadow-sm hover:shadow-md transition flex flex-col justify-center">
+                    <span class="text-xs font-semibold text-blue-800 bg-[#B0CDE6]/30 px-3 py-1 rounded-full w-max mb-2">Okt 2026 - Saat Ini</span>
+                    <h3 class="font-bold text-gray-900 text-lg">Student Worker - Staf Administrasi</h3>
+                    <p class="text-sm font-medium text-gray-500 mb-3">Bagian Pengembangan Kemitraan (BKM) Institut Teknologi PLN</p>
+                    <ul class="text-sm text-gray-600 list-disc pl-5 space-y-1.5 text-justify">
+                        <li>Membantu penyusunan dan pendistribusian surat resmi serta nota dinas internal.</li>
+                        <li>Mendukung pengumpulan dokumen kegiatan, materi video, dan laporan berkala Bagian Pengembangan Kemitraan.</li>
+                        <li>Membantu merancang flyer promosi dan konten media visual.</li>
+                        <li>Menyusun notulen rapat untuk pertemuan daring maupun luring.</li>
+                        <li>Berpartisipasi dalam kegiatan departemen dan kunjungan resmi bersama mitra institusi.</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Item 2: Secretary Ministry INTEK -->
+            <div class="flex flex-col md:flex-row-reverse items-center justify-between gap-8 relative group">
+                <!-- Foto Kanan -->
+                <div class="w-full md:w-1/2">
+                    <div class="h-64 md:h-80 rounded-2xl overflow-hidden border border-pink-100 shadow-sm hover:shadow-md transition">
+                        <img src="intek.jpeg" 
+                             alt="Kementerian INTEK BEM KBM ITPLN" 
+                             class="w-full h-full object-cover object-center hover:scale-105 transition duration-300">
+                    </div>
+                </div>
+                <!-- Titik Timeline Tengah -->
+                <div class="hidden md:flex absolute left-1/2 -translate-x-1/2 items-center justify-center w-8 h-8 rounded-full bg-[#FFCED8] text-white z-10 shadow">
+                    <i class="fas fa-users text-xs text-pink-800"></i>
+                </div>
+                <!-- Teks Kiri -->
+                <div class="w-full md:w-1/2 bg-white p-6 rounded-2xl border border-pink-100 shadow-sm hover:shadow-md transition flex flex-col justify-center">
+                    <span class="text-xs font-semibold text-pink-800 bg-[#FFCED8]/40 px-3 py-1 rounded-full w-max mb-2">Nov 2025 - Saat Ini</span>
+                    <h3 class="font-bold text-gray-900 text-lg">Sekretaris Kementerian Inovasi & Teknologiy</h3>
+                    <p class="text-sm font-medium text-gray-500 mb-3">BEM KBM Institut Teknologi PLN</p>
+                    <ul class="text-sm text-gray-600 list-disc pl-5 space-y-1.5 text-justify">
+                        <li>Mengelola administrasi dan pengarsipan dokumen kementerian, meliputi surat-menyurat, proposal program kerja, Berita Acara, dan Laporan Pertanggungjawaban (LPJ).</li>
+                        <li>Mengoordinasikan kebutuhan administrasi serta penyampaian informasi antara Menteri dan staf Kementerian Inovasi dan Teknologi.</li>
+                        <li>Menyusun notulensi rapat dan mendokumentasikan hasil pembahasan serta keputusan kementerian.</li>
+                        <li>Mengatur jadwal rapat dan mendukung kelancaran administrasi pelaksanaan program kerja kementerian.</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Item 3: Symposium Energy -->
+            <div class="flex flex-col md:flex-row items-center justify-between gap-8 relative group">
+                <!-- Foto Kiri -->
+                <div class="w-full md:w-1/2">
+                    <div class="h-64 md:h-80 rounded-2xl overflow-hidden border border-blue-100 shadow-sm hover:shadow-md transition">
+                        <img src="symposium energi.jpeg" 
+                             alt="Seminar Nasional Symposium Energi" 
+                             class="w-full h-full object-cover object-center hover:scale-105 transition duration-300">
+                    </div>
+                </div>
+                <!-- Titik Timeline Tengah -->
+                <div class="hidden md:flex absolute left-1/2 -translate-x-1/2 items-center justify-center w-8 h-8 rounded-full bg-[#B0CDE6] text-white z-10 shadow">
+                    <i class="fas fa-calendar-alt text-xs text-blue-800"></i>
+                </div>
+                <!-- Teks Kanan -->
+                <div class="w-full md:w-1/2 bg-white p-6 rounded-2xl border border-blue-100 shadow-sm hover:shadow-md transition flex flex-col justify-center">
+                    <span class="text-xs font-semibold text-blue-800 bg-[#B0CDE6]/30 px-3 py-1 rounded-full w-max mb-2">29 Juni 2026 - 30 Juni 2026</span>
+                    <h3 class="font-bold text-gray-900 text-lg">Sekretaris Satu - Seminar Nasional Symposium Energy</h3>
+                    <p class="text-sm font-medium text-gray-500 mb-3">BEM KBM Institut Teknologi PLN</p>
+                    <ul class="text-sm text-gray-600 list-disc pl-5 space-y-1.5 text-justify">
+                        <li>Mengelola administrasi kegiatan, termasuk penyusunan surat pengajuan kegiatan (SPK) dan dokumen pendukung pelaksanaan seminar nasional.</li>
+                        <li>Mengurus persuratan resmi, koordinasi birokrasi, serta perizinan tempat pelaksanaan kegiatan.</li>
+                        <li>Menyiapkan dan mengelola surat undangan bagi peserta kompetisi tingkat nasional.</li>
+                        <li>Mengoordinasikan kebutuhan administrasi dengan pihak internal maupun eksternal yang terlibat dalam kegiatan.</li>
+                        <li>Menyusun dan mengelola dokumentasi administrasi serta Laporan Pertanggungjawaban (LPJ) kegiatan.</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Item 4: Solar Skill Academy -->
+            <div class="flex flex-col md:flex-row-reverse items-center justify-between gap-8 relative group">
+                <!-- Foto Kanan -->
+                <div class="w-full md:w-1/2">
+                    <div class="h-64 md:h-80 rounded-2xl overflow-hidden border border-pink-100 shadow-sm hover:shadow-md transition">
+                        <img src="solar skill.jpeg" 
+                             alt="Workshop Solar Skill Academy" 
+                             class="w-full h-full object-cover object-center hover:scale-105 transition duration-300">
+                    </div>
+                </div>
+                <!-- Titik Timeline Tengah -->
+                <div class="hidden md:flex absolute left-1/2 -translate-x-1/2 items-center justify-center w-8 h-8 rounded-full bg-[#FFCED8] text-white z-10 shadow">
+                    <i class="fas fa-solar-panel text-xs text-pink-800"></i>
+                </div>
+                <!-- Teks Kiri -->
+                <div class="w-full md:w-1/2 bg-white p-6 rounded-2xl border border-pink-100 shadow-sm hover:shadow-md transition flex flex-col justify-center">
+                    <span class="text-xs font-semibold text-pink-800 bg-[#FFCED8]/40 px-3 py-1 rounded-full w-max mb-2">27 April 2026</span>
+                    <h3 class="font-bold text-gray-900 text-lg">Sekretaris - Workshop Solar Skill Academy</h3>
+                    <p class="text-sm font-medium text-gray-500 mb-3">BEM KBM Institut Teknologi PLN</p>
+                    <ul class="text-sm text-gray-600 list-disc pl-5 space-y-1.5 text-justify">
+                        <li>Menyusun Surat Pengajuan Kegiatan (SPK) dan dokumen pendukung sebagai kebutuhan persiapan workshop.</li>
+                        <li>Membuat notulensi rapat serta mencatat hasil pembahasan, keputusan, dan tindak lanjut kegiatan.</li>
+                        <li>Mengumpulkan dan mengarsipkan dokumen kegiatan sebagai bahan penyusunan Laporan Pertanggungjawaban (LPJ).</li>
+                        <li>Memantau kelengkapan surat-menyurat, daftar hadir, dan dokumen pendukung selama pelaksanaan workshop.</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Item 5: Forum Perempuan -->
+            <div class="flex flex-col md:flex-row items-center justify-between gap-8 relative group">
+                <!-- Foto Kiri -->
+                <div class="w-full md:w-1/2">
+                    <div class="h-64 md:h-80 rounded-2xl overflow-hidden border border-blue-100 shadow-sm hover:shadow-md transition">
+                        <img src="forum perempuan.jpeg" 
+                             alt="Forum Perempuan ITPLN" 
+                             class="w-full h-full object-cover object-center hover:scale-105 transition duration-300">
+                    </div>
+                </div>
+                <!-- Titik Timeline Tengah -->
+                <div class="hidden md:flex absolute left-1/2 -translate-x-1/2 items-center justify-center w-8 h-8 rounded-full bg-[#B0CDE6] text-white z-10 shadow">
+                    <i class="fas fa-user-friends text-xs text-blue-800"></i>
+                </div>
+                <!-- Teks Kanan -->
+                <div class="w-full md:w-1/2 bg-white p-6 rounded-2xl border border-blue-100 shadow-sm hover:shadow-md transition flex flex-col justify-center">
+                    <span class="text-xs font-semibold text-gray-700 bg-gray-100 px-3 py-1 rounded-full w-max mb-2">Okt 2025 - Saat Ini</span>
+                    <h3 class="font-bold text-gray-900 text-lg">Staf Divisi Internal</h3>
+                    <p class="text-sm font-medium text-gray-500 mb-3">Forum Perempuan ITPLN</p>
+                    <ul class="text-sm text-gray-600 list-disc pl-5 space-y-1.5 text-justify">
+                        <li>Mengurus perizinan administrasi resmi, dokumentasi, dan kelengkapan persyaratan kegiatan melalui pihak internal kampus.</li>
+                        <li>Menjadi penghubung komunikasi antara Forum Perempuan dengan pimpinan kampus, BEM, dan dosen pembina.</li>
+                        <li>Mengoordinasikan pelaksanaan program kerja internal secara kolaboratif untuk meningkatkan keterlibatan dan mendukung pemberdayaan mahasiswa.</li>
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Academic & Special Projects Section -->
+    <section id="projects" class="py-16 bg-white border-t border-pink-100">
+        <div class="max-w-6xl mx-auto px-6">
+            <h2 class="text-3xl font-bold text-gray-900 mb-4 border-b-4 border-[#FFCED8] w-max pb-1">Projek Akademik</h2>
+            <p class="text-gray-600 mb-12 text-sm md:text-base">Dokumentasi hasil karya riset, pengembangan perangkat lunak, sistem cerdas IoT, serta perancangan antarmuka pengguna (UI/UX) berbasis studi kasus nyata.</p>
+            
+            <div class="space-y-16">
+
+                <!-- Proyek 1: BubbleLink -->
+                <div class="bg-gray-50 rounded-3xl p-6 md:p-8 border border-gray-200 shadow-sm space-y-6">
+                    <div class="flex flex-col md:flex-row md:items-center justify-between gap-4 border-b border-gray-200 pb-4">
+                        <div>
+                            <span class="text-xs font-bold text-pink-600 bg-pink-100 px-3 py-1 rounded-full">Web Development & Process Automation</span>
+                            <h3 class="text-2xl font-bold text-gray-900 mt-2">1. E-Laundry Management System with Status Tracking (BubbleLink)</h3>
+                            <p class="text-sm text-gray-500 font-medium">Peran: Full Stack Developer (Kelompok 1) | Metodologi: Waterfall | Tech Stack: PHP Native (PDO), MySQL, HTML5, CSS3</p>
+                        </div>
+                    </div>
+
+                    <p class="text-sm text-gray-700 leading-relaxed text-justify">
+                        BubbleLink dikembangkan untuk menyelesaikan permasalahan efisiensi operasional pada bisnis jasa laundry konvensional, seperti pencatatan transaksi manual yang rentan hilang serta minimnya transparansi status pencucian bagi pelanggan. Sistem berbasis web ini menghubungkan 3 hak akses utama (Pelanggan, Admin Kasir, dan Kurir) dalam satu basis data terintegrasi, mencakup alur pemesanan online, verifikasi pembayaran, hingga penugasan jemput-antar pakaian secara real-time.
+                    </p>
+
+                    <div class="grid md:grid-cols-2 gap-4 text-xs text-gray-700">
+                        <div class="bg-white p-4 rounded-xl border border-gray-200 space-y-1">
+                            <strong class="text-gray-900 text-sm font-bold block">Fitur Utama & Keunggulan Sistem:</strong>
+                            <ul class="list-disc pl-4 space-y-1 leading-relaxed">
+                                <li><strong>Live Status Tracking:</strong> Pelanggan dapat melacak tahapan cuci (Diterima, Dicuci, Dijemur, Disetrika, Siap Diantar) secara transparan.</li>
+                                <li><strong>Kalkulasi Biaya & Print Label:</strong> Perhitungan otomatis berdasarkan bobot/paket cuci serta pembuatan label identitas kantong cuci untuk mencegah pakaian tertukar.</li>
+                            </ul>
+                        </div>
+                        <div class="bg-white p-4 rounded-xl border border-gray-200 space-y-1">
+                            <strong class="text-gray-900 text-sm font-bold block">Kontribusi Teknis & Arsitektur:</strong>
+                            <ul class="list-disc pl-4 space-y-1 leading-relaxed">
+                                <li>Merancang skema relasi basis data MySQL (ERD) dan mengimplementasikan keamanan transaksi data menggunakan PHP PDO.</li>
+                                <li>Menyusun antarmuka responsif pengguna (User Dashboard) serta alur autentikasi multi-user yang aman.</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- Galeri Gambar Proyek 1 -->
+                    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 pt-2">
+                        <div class="rounded-xl overflow-hidden border border-gray-200 shadow-sm bg-white p-2 text-center">
+                            <p class="text-xs font-semibold text-gray-500 mb-1.5">Portal Login System</p>
+                            <img src="pemweb3.jpg" alt="Portal Login BubbleLink" class="w-full h-auto object-contain hover:scale-105 transition duration-300">
+                        </div>
+                        <div class="rounded-xl overflow-hidden border border-gray-200 shadow-sm bg-white p-2 text-center">
+                            <p class="text-xs font-semibold text-gray-500 mb-1.5">Form Pemesanan & Tracking Status</p>
+                            <img src="pemweb4.jpg" alt="Live Status Tracking & Form Pemesanan" class="w-full h-auto object-contain hover:scale-105 transition duration-300">
+                        </div>
+                        <div class="rounded-xl overflow-hidden border border-gray-200 shadow-sm bg-white p-2 text-center">
+                            <p class="text-xs font-semibold text-gray-500 mb-1.5">Desain 3D Area Kasir & Pelayanan</p>
+                            <img src="pemweb1.jpg" alt="Render 3D Toko Laundry - Kasir" class="w-full h-auto object-contain hover:scale-105 transition duration-300">
+                        </div>
+                        <div class="rounded-xl overflow-hidden border border-gray-200 shadow-sm bg-white p-2 text-center">
+                            <p class="text-xs font-semibold text-gray-500 mb-1.5">Desain 3D Tata Layout Ruang Tunggu</p>
+                            <img src="pemweb2.jpg" alt="Render 3D Toko Laundry - Ruang Tunggu" class="w-full h-auto object-contain hover:scale-105 transition duration-300">
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Proyek 2: Machine Learning -->
+                <div class="bg-gray-50 rounded-3xl p-6 md:p-8 border border-gray-200 shadow-sm space-y-6">
+                    <div class="flex flex-col md:flex-row md:items-center justify-between gap-4 border-b border-gray-200 pb-4">
+                        <div>
+                            <span class="text-xs font-bold text-blue-600 bg-blue-100 px-3 py-1 rounded-full">Data Science & Machine Learning</span>
+                            <h3 class="text-2xl font-bold text-gray-900 mt-2">2. Prediksi Performa Akademik Mahasiswa ITPLN</h3>
+                            <p class="text-sm text-gray-500 font-medium">Peran: Data Analyst / ML Developer (Kelompok 4) | Tech: Python (Pandas, Scikit-Learn, Seaborn), Google Colab, Streamlit Dashboard</p>
+                        </div>
+                    </div>
+
+                    <p class="text-sm text-gray-700 leading-relaxed text-justify">
+                        Penelitian ini bertujuan untuk memprediksi tingkat performa akademik mahasiswa (kategori High, Medium, Low) berdasarkan analisis variabel pola kebiasaan harian seperti durasi belajar efektif, kualitas tidur, frekuensi olahraga, screen time media sosial, dan tingkat stres mental. Melalui pendekatan supervised learning, model AI ini membantu memberikan deteksi dini serta rekomendasi gaya hidup yang seimbang bagi mahasiswa.
+                    </p>
+
+                    <div class="grid md:grid-cols-2 gap-4 text-xs text-gray-700">
+                        <div class="bg-white p-4 rounded-xl border border-gray-200 space-y-1">
+                            <strong class="text-gray-900 text-sm font-bold block">Analisis Data & Perbandingan Algoritma:</strong>
+                            <ul class="list-disc pl-4 space-y-1 leading-relaxed">
+                                <li>Melakukan tahapan Data Cleaning, Normalisasi Data, serta Exploratory Data Analysis (EDA) menggunakan Matplotlib/Seaborn.</li>
+                                <li>Algoritma <strong>Logistic Regression</strong> terbukti menjadi model terbaik dengan tingkat akurasi mencapai <strong>79,5% (≈80%)</strong>, mengungguli Random Forest (73,5%).</li>
+                            </ul>
+                        </div>
+                        <div class="bg-white p-4 rounded-xl border border-gray-200 space-y-1">
+                            <strong class="text-gray-900 text-sm font-bold block">Implementasi Web Interactive Dashboard:</strong>
+                            <ul class="list-disc pl-4 space-y-1 leading-relaxed">
+                                <li>Mengintegrasikan model Machine Learning yang telah dilatih ke dalam aplikasi antarmuka web Streamlit.</li>
+                                <li>Menampilkan kalkulasi persentase Confidence Level prediksi serta menghasilkan saran/tips rekomendasi harian secara otomatis.</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- Galeri Gambar Proyek 2 -->
+                    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 pt-2">
+                        <div class="rounded-xl overflow-hidden border border-gray-200 shadow-sm bg-white p-2 text-center">
+                            <p class="text-xs font-semibold text-gray-500 mb-1.5">Hasil Prediksi & Rekomendasi AI</p>
+                            <img src="ml4.png" alt="Tampilan Hasil Analisis AI Dashboard" class="w-full h-auto object-contain hover:scale-105 transition duration-300">
+                        </div>
+                        <div class="rounded-xl overflow-hidden border border-gray-200 shadow-sm bg-white p-2 text-center">
+                            <p class="text-xs font-semibold text-gray-500 mb-1.5">Form Input Kebiasaan Mahasiswa</p>
+                            <img src="ml3.png" alt="Antarmuka Input Dashboard Streamlit" class="w-full h-auto object-contain hover:scale-105 transition duration-300">
+                        </div>
+                        <div class="rounded-xl overflow-hidden border border-gray-200 shadow-sm bg-white p-2 text-center">
+                            <p class="text-xs font-semibold text-gray-500 mb-1.5">Evaluasi Confusion Matrix Model</p>
+                            <img src="ml2.png" alt="Heatmap Confusion Matrix Comparison" class="w-full h-auto object-contain hover:scale-105 transition duration-300">
+                        </div>
+                        <div class="rounded-xl overflow-hidden border border-gray-200 shadow-sm bg-white p-2 text-center">
+                            <p class="text-xs font-semibold text-gray-500 mb-1.5">Grafik Exploratory Data Analysis (EDA)</p>
+                            <img src="ml1.png" alt="Exploratory Data Analysis (EDA) Graphs" class="w-full h-auto object-contain hover:scale-105 transition duration-300">
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Proyek 3: ESP32 IoT Monitoring -->
+                <div class="bg-gray-50 rounded-3xl p-6 md:p-8 border border-gray-200 shadow-sm space-y-6">
+                    <div class="flex flex-col md:flex-row md:items-center justify-between gap-4 border-b border-gray-200 pb-4">
+                        <div>
+                            <span class="text-xs font-bold text-amber-600 bg-amber-100 px-3 py-1 rounded-full">Internet of Things (IoT) & Embedded Systems</span>
+                            <h3 class="text-2xl font-bold text-gray-900 mt-2">3. Smart Energy Monitoring & Real-Time Cost Estimation System</h3>
+                            <p class="text-sm text-gray-500 font-medium">Peran: Hardware Assembly, Circuit Design & Tech Documentation (Kelompok 2) | Tech: ESP32, PZEM-004T, DHT11, Relay, MQTT (HiveMQ Cloud), Flask API, Tailwind CSS</p>
+                        </div>
+                    </div>
+
+                    <p class="text-sm text-gray-700 leading-relaxed text-justify">
+                        Proyek perangkat keras dan lunak IoT ini dirancang untuk memantau konsumsi energi listrik serta suhu lingkungan panel secara real-time. Sistem ini mengintegrasikan mikrokontroler ESP32 dengan sensor daya presisi tinggi untuk menghitung beban biaya listrik (Rupiah) secara konsisten sekaligus menyediakan mekanisme pertahanan/keamanan perangkat dari risiko beban berlebih (overload) atau bahaya overheat.
+                    </p>
+
+                    <div class="grid md:grid-cols-2 gap-4 text-xs text-gray-700">
+                        <div class="bg-white p-4 rounded-xl border border-gray-200 space-y-1">
+                            <strong class="text-gray-900 text-sm font-bold block">Pembacaan Sensor & Proteksi Otomatis:</strong>
+                            <ul class="list-disc pl-4 space-y-1 leading-relaxed">
+                                <li>Pengukuran akurat parameter Tegangan (V), Arus (A), Daya (W), Energi (kWh), dan Suhu (°C).</li>
+                                <li>Fitur Automatic Safety Cut-off Relay yang memutus arus listrik secara cepat ketika beban melebihi ambang batas aman (≥500W) atau suhu berlebih (>45°C).</li>
+                            </ul>
+                        </div>
+                        <div class="bg-white p-4 rounded-xl border border-gray-200 space-y-1">
+                            <strong class="text-gray-900 text-sm font-bold block">Cloud Connectivity & Web Monitoring:</strong>
+                            <ul class="list-disc pl-4 space-y-1 leading-relaxed">
+                                <li>Pengiriman telemetri data nirkabel dari ESP32 menuju broker HiveMQ Cloud berbasis protokol MQTT.</li>
+                                <li>Visualisasi data grafik daya listrik real-time dan kalkulasi estimasi tagihan listrik bulanan pada Web Dashboard interaktif.</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- Galeri Gambar Proyek 3 -->
+                    <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 pt-2">
+                        <div class="rounded-xl overflow-hidden border border-gray-200 shadow-sm bg-white p-2 text-center">
+                            <p class="text-xs font-semibold text-gray-500 mb-1.5">Perakitan Rangkaian Hardware & Enclosure Box</p>
+                            <img src="iot_1.jpg" alt="Perakitan Fisik Hardware ESP32 & Enclosure Box" class="w-full h-auto object-contain hover:scale-105 transition duration-300">
+                        </div>
+                        <div class="rounded-xl overflow-hidden border border-gray-200 shadow-sm bg-white p-2 text-center">
+                            <p class="text-xs font-semibold text-gray-500 mb-1.5">Tampilan Dashboard Web Power Meter Real-Time</p>
+                            <img src="iot_2.jpg" alt="Web Dashboard Powermeter Monitoring Real-Time" class="w-full h-auto object-contain hover:scale-105 transition duration-300">
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Proyek 4: F-KELANA UI/UX Design -->
+                <div class="bg-gray-50 rounded-3xl p-6 md:p-8 border border-gray-200 shadow-sm space-y-6">
+                    <div class="flex flex-col md:flex-row md:items-center justify-between gap-4 border-b border-gray-200 pb-4">
+                        <div>
+                            <span class="text-xs font-bold text-purple-600 bg-purple-100 px-3 py-1 rounded-full">UI/UX Design & User Research</span>
+                            <h3 class="text-2xl font-bold text-gray-900 mt-2">4. Analisis & Perancangan Aplikasi F-KELANA (Financial Management UI/UX)</h3>
+                            <p class="text-sm text-gray-500 font-medium">Peran: UI/UX Designer (Kelompok 5) | Metodologi: Design Thinking | Tools: Figma (Wireframe & High-Fidelity Prototype), Usability Testing</p>
+                        </div>
+                    </div>
+
+                    <p class="text-sm text-gray-700 leading-relaxed text-justify">
+                        F-KELANA merupakan hasil perancangan antarmuka pengguna (UI/UX) aplikasi manajemen keuangan pribadi berbasis mobile yang dirancang khusus untuk memenuhi kebutuhan mahasiswa dan first-jobber (Gen-Z). Proyek ini berfokus pada penyelesaian masalah kebiasaan belanja impulsif serta kesulitan pencatatan anggaran harian melalui pengalaman pengguna yang intuitif, cepat, dan interaktif.
+                    </p>
+
+                    <div class="grid md:grid-cols-2 gap-4 text-xs text-gray-700">
+                        <div class="bg-white p-4 rounded-xl border border-gray-200 space-y-1">
+                            <strong class="text-gray-900 text-sm font-bold block">Fitur Unggulan Antarmuka:</strong>
+                            <ul class="list-disc pl-4 space-y-1 leading-relaxed">
+                                <li><strong>One-Page Quick Input Form:</strong> Memudahkan pencatatan pemasukan/pengeluaran harian kurang dari 5 detik.</li>
+                                <li><strong>Visualisasi Dompet Terpusat & Budget Warning:</strong> Progress Bar batas anggaran dengan indikator peringatan visual saat pengeluaran mendekati limit harian.</li>
+                            </ul>
+                        </div>
+                        <div class="bg-white p-4 rounded-xl border border-gray-200 space-y-1">
+                            <strong class="text-gray-900 text-sm font-bold block">Tahapan Iterasi Metodologi Design Thinking:</strong>
+                            <ul class="list-disc pl-4 space-y-1 leading-relaxed">
+                                <li>Tahap Empathize & Define: Wawancara pengguna untuk mengidentifikasi pain points keuangan mahasiswa.</li>
+                                <li>Tahap Wireframing & Prototyping: Mengembangkan alur Low-Fidelity hingga desain interaktif High-Fidelity berbasis design system di Figma.</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- Galeri Gambar Proyek F-KELANA -->
+                    <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 pt-2">
+                        <div class="rounded-xl overflow-hidden border border-gray-200 shadow-sm bg-white p-2 text-center">
+                            <p class="text-xs font-semibold text-gray-500 mb-1.5">Kerangka Wireframe & Alur Low-Fidelity (Lo-Fi)</p>
+                            <img src="ui.ux_2.png" alt="Wireframe Low-Fidelity F-KELANA" class="w-full h-auto object-contain hover:scale-105 transition duration-300">
+                        </div>
+                        <div class="rounded-xl overflow-hidden border border-gray-200 shadow-sm bg-white p-2 text-center">
+                            <p class="text-xs font-semibold text-gray-500 mb-1.5">Tampilan Akhir Antarmuka High-Fidelity (Hi-Fi) Figma</p>
+                            <img src="ui.ux_1.png" alt="High-Fidelity Prototype F-KELANA" class="w-full h-auto object-contain hover:scale-105 transition duration-300">
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Certificates Section -->
+    <section id="certificates" class="py-16 bg-white border-t border-pink-100">
+        <div class="max-w-6xl mx-auto px-6">
+            <h2 class="text-3xl font-bold text-gray-900 mb-8 border-b-4 border-[#FFCED8] w-max pb-1">Sertifikat & Pelatihan</h2>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+
+                <!-- Sertifikat 1 -->
+                <div class="bg-gray-50 rounded-2xl border border-gray-200 hover:border-pink-300 transition shadow-sm flex flex-col justify-between overflow-hidden">
+                    <div class="h-44 w-full bg-gray-100 overflow-hidden border-b border-gray-100">
+                        <img src="Sertifikat Webinar PPI DKI JAKARTA_page-0001.jpg" 
+                             alt="Sertifikat Webinar PPI DKI Jakarta" 
+                             class="w-full h-full object-cover hover:scale-105 transition duration-300">
+                    </div>
+                    <div class="p-6 flex-1 flex flex-col justify-between">
+                        <div>
+                            <div class="flex justify-between items-start mb-3">
+                                <span class="text-xs font-semibold text-pink-800 bg-[#FFCED8]/40 px-2.5 py-1 rounded-full">Okt 2026</span>
+                                <span class="text-xs text-gray-500 font-medium">PPI DKI Jakarta</span>
+                            </div>
+                            <h3 class="font-bold text-gray-800 text-base mb-2">Webinar Nasional Kekayaan Intelektual (KI)</h3>
+                            <p class="text-xs text-gray-600 leading-relaxed">Strategi Menuju KI Terkabulkan: Akselerasi Penerbitan, Lisensi, dan Hilirisasi Hasil Riset dan Inovasi (4 JP).</p>
+                        </div>
+                        <div class="mt-4 pt-3 border-t border-gray-200/60 flex items-center justify-between text-xs text-gray-500">
+                            <span><i class="fas fa-certificate text-pink-500 mr-1"></i> Peserta</span>
+                            <span>Daring</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Sertifikat 2 -->
+                <div class="bg-gray-50 rounded-2xl border border-gray-200 hover:border-blue-300 transition shadow-sm flex flex-col justify-between overflow-hidden">
+                    <div class="h-44 w-full bg-gray-100 overflow-hidden border-b border-gray-100">
+                        <img src="Sertifikat Peserta-16_page-0001.jpg" 
+                             alt="Sertifikat FLAIR Flutter Workshop" 
+                             class="w-full h-full object-cover hover:scale-105 transition duration-300">
+                    </div>
+                    <div class="p-6 flex-1 flex flex-col justify-between">
+                        <div>
+                            <div class="flex justify-between items-start mb-3">
+                                <span class="text-xs font-semibold text-blue-800 bg-[#B0CDE6]/40 px-2.5 py-1 rounded-full">Jan 2026</span>
+                                <span class="text-xs text-gray-500 font-medium">IR Lab FTEN IT-PLN</span>
+                            </div>
+                            <h3 class="font-bold text-gray-800 text-base mb-2">FLAIR: Flutter Learning & App Implementation</h3>
+                            <p class="text-xs text-gray-600 leading-relaxed">Workshop pengembangan aplikasi mobile Flutter dan implementasi fitur secara terstruktur.</p>
+                        </div>
+                        <div class="mt-4 pt-3 border-t border-gray-200/60 flex items-center justify-between text-xs text-gray-500">
+                            <span><i class="fas fa-certificate text-blue-500 mr-1"></i> Peserta</span>
+                            <span>IT-PLN</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Sertifikat 3 -->
+                <div class="bg-gray-50 rounded-2xl border border-gray-200 hover:border-pink-300 transition shadow-sm flex flex-col justify-between overflow-hidden">
+                    <div class="h-44 w-full bg-gray-100 overflow-hidden border-b border-gray-100">
+                        <img src="Fatmalia (1)_page-0001.jpg" 
+                             alt="Sertifikat Workshop Blockchain" 
+                             class="w-full h-full object-cover hover:scale-105 transition duration-300">
+                    </div>
+                    <div class="p-6 flex-1 flex flex-col justify-between">
+                        <div>
+                            <div class="flex justify-between items-start mb-3">
+                                <span class="text-xs font-semibold text-pink-800 bg-[#FFCED8]/40 px-2.5 py-1 rounded-full">Nov 2025</span>
+                                <span class="text-xs text-gray-500 font-medium">Lab Kom FTEN IT-PLN</span>
+                            </div>
+                            <h3 class="font-bold text-gray-800 text-base mb-2">Blockchain: Crafting the Blockshield</h3>
+                            <p class="text-xs text-gray-600 leading-relaxed">Build Your Own Decentralized World with Geth & Metamask.</p>
+                        </div>
+                        <div class="mt-4 pt-3 border-t border-gray-200/60 flex items-center justify-between text-xs text-gray-500">
+                            <span><i class="fas fa-certificate text-pink-500 mr-1"></i> Peserta</span>
+                            <span>IT-PLN</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Sertifikat 4 -->
+                <div class="bg-gray-50 rounded-2xl border border-gray-200 hover:border-blue-300 transition shadow-sm flex flex-col justify-between overflow-hidden">
+                    <div class="h-44 w-full bg-gray-100 overflow-hidden border-b border-gray-100">
+                        <img src="Workshop Web 101_page-0001.jpg" 
+                             alt="Sertifikat Workshop Web 101" 
+                             class="w-full h-full object-cover hover:scale-105 transition duration-300">
+                    </div>
+                    <div class="p-6 flex-1 flex flex-col justify-between">
+                        <div>
+                            <div class="flex justify-between items-start mb-3">
+                                <span class="text-xs font-semibold text-blue-800 bg-[#B0CDE6]/40 px-2.5 py-1 rounded-full">Mei 2025</span>
+                                <span class="text-xs text-gray-500 font-medium">SE Lab FTEN IT-PLN</span>
+                            </div>
+                            <h3 class="font-bold text-gray-800 text-base mb-2">Web 101: Building Stellar Portfolio</h3>
+                            <p class="text-xs text-gray-600 leading-relaxed">Pengembangan portofolio web interaktif memanfaatkan Tailwind CSS dan Golang.</p>
+                        </div>
+                        <div class="mt-4 pt-3 border-t border-gray-200/60 flex items-center justify-between text-xs text-gray-500">
+                            <span><i class="fas fa-certificate text-blue-500 mr-1"></i> Peserta</span>
+                            <span>IT-PLN</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Sertifikat 5 -->
+                <div class="bg-gray-50 rounded-2xl border border-gray-200 hover:border-pink-300 transition shadow-sm flex flex-col justify-between overflow-hidden">
+                    <div class="h-44 w-full bg-gray-100 overflow-hidden border-b border-gray-100">
+                        <img src="1-41_signed_signed_page-0001.jpg" 
+                             alt="Sertifikat Workshop AI Chatbot" 
+                             class="w-full h-full object-cover hover:scale-105 transition duration-300">
+                    </div>
+                    <div class="p-6 flex-1 flex flex-col justify-between">
+                        <div>
+                            <div class="flex justify-between items-start mb-3">
+                                <span class="text-xs font-semibold text-pink-800 bg-[#FFCED8]/40 px-2.5 py-1 rounded-full">Jun 2025</span>
+                                <span class="text-xs text-gray-500 font-medium">IC Lab FTEN IT-PLN</span>
+                            </div>
+                            <h3 class="font-bold text-gray-800 text-base mb-2">AI for The Future: Smart Chatbots</h3>
+                            <p class="text-xs text-gray-600 leading-relaxed">Crafting Smart Chatbots for Your Digital Partner dalam era kecerdasan buatan.</p>
+                        </div>
+                        <div class="mt-4 pt-3 border-t border-gray-200/60 flex items-center justify-between text-xs text-gray-500">
+                            <span><i class="fas fa-certificate text-pink-500 mr-1"></i> Peserta</span>
+                            <span>IT-PLN</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Sertifikat 6 -->
+                <div class="bg-gray-50 rounded-2xl border border-gray-200 hover:border-blue-300 transition shadow-sm flex flex-col justify-between overflow-hidden">
+                    <div class="h-44 w-full bg-gray-100 overflow-hidden border-b border-gray-100">
+                        <img src="Fatmalia_signed_page-0001.jpg" 
+                             alt="Sertifikat Defensive Security Webinar" 
+                             class="w-full h-full object-cover hover:scale-105 transition duration-300">
+                    </div>
+                    <div class="p-6 flex-1 flex flex-col justify-between">
+                        <div>
+                            <div class="flex justify-between items-start mb-3">
+                                <span class="text-xs font-semibold text-blue-800 bg-[#B0CDE6]/40 px-2.5 py-1 rounded-full">Okt 2024</span>
+                                <span class="text-xs text-gray-500 font-medium">ES & CN Lab FTEN</span>
+                            </div>
+                            <h3 class="font-bold text-gray-800 text-base mb-2">Strategi Defensive Security di Tengah Serangan AI</h3>
+                            <p class="text-xs text-gray-600 leading-relaxed">Webinar keamanan jaringan dan strategi pertahanan siber terkini.</p>
+                        </div>
+                        <div class="mt-4 pt-3 border-t border-gray-200/60 flex items-center justify-between text-xs text-gray-500">
+                            <span><i class="fas fa-certificate text-blue-500 mr-1"></i> Peserta</span>
+                            <span>Daring</span>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="py-16 max-w-6xl mx-auto px-6">
+        <h2 class="text-3xl font-bold text-gray-900 mb-8 border-b-4 border-[#B0CDE6] w-max pb-1">Keahlian</h2>
+        
+        <div class="space-y-6">
+            <!-- Hard Skills -->
+            <div>
+                <h3 class="text-lg font-bold text-gray-800 mb-3">Hard Skills</h3>
+                <div class="flex flex-wrap gap-3">
+                    <span class="px-4 py-2 bg-white border border-pink-200 rounded-xl shadow-sm font-medium text-gray-700">Data Analysis (Dasar)</span>
+                    <span class="px-4 py-2 bg-white border border-blue-200 rounded-xl shadow-sm font-medium text-gray-700">Manajemen Basis Data (MySQL)</span>
+                    <span class="px-4 py-2 bg-white border border-blue-200 rounded-xl shadow-sm font-medium text-gray-700">Pemrograman Python dan C++</span>
+                    <span class="px-4 py-2 bg-white border border-pink-200 rounded-xl shadow-sm font-medium text-gray-700">Pengembangan Web (HTML, CSS, JavaScript)</span>
+                    <span class="px-4 py-2 bg-white border border-blue-200 rounded-xl shadow-sm font-medium text-gray-700">Analisis dan Perancangan Sistem Informasi</span>
+                    <span class="px-4 py-2 bg-white border border-pink-200 rounded-xl shadow-sm font-medium text-gray-700">Microsoft Office</span>
+                    <span class="px-4 py-2 bg-white border border-blue-200 rounded-xl shadow-sm font-medium text-gray-700">Desain Visual (Canva dan Figma)</span>
+                    <span class="px-4 py-2 bg-white border border-blue-200 rounded-xl shadow-sm font-medium text-gray-700">Administrasi dan Kesekretariatan</span>
+                    <span class="px-4 py-2 bg-white border border-blue-200 rounded-xl shadow-sm font-medium text-gray-700">Tata Kelola Persuratan dan Pengarsipan</span>
+                </div>
+            </div>
+
+            <!-- Soft Skills -->
+            <div>
+                <h3 class="text-lg font-bold text-gray-800 mb-3">Soft Skills</h3>
+                <div class="flex flex-wrap gap-3">
+                    <span class="px-4 py-2 bg-white border border-blue-200 rounded-xl shadow-sm font-medium text-gray-700">Berpikir Kritis dan Analitis</span>
+                    <span class="px-4 py-2 bg-white border border-pink-200 rounded-xl shadow-sm font-medium text-gray-700">Ketelitian dalam Bekerja</span>
+                    <span class="px-4 py-2 bg-white border border-blue-200 rounded-xl shadow-sm font-medium text-gray-700">Manajemen Waktu</span>
+                    <span class="px-4 py-2 bg-white border border-pink-200 rounded-xl shadow-sm font-medium text-gray-700">Bertanggung Jawab dan Disiplin</span>
+                    <span class="px-4 py-2 bg-white border border-blue-200 rounded-xl shadow-sm font-medium text-gray-700">Kemampuan Beradaptasi</span>
+                    <span class="px-4 py-2 bg-white border border-blue-200 rounded-xl shadow-sm font-medium text-gray-700">Komunikasi Interpersonal</span>
+                    <span class="px-4 py-2 bg-white border border-blue-200 rounded-xl shadow-sm font-medium text-gray-700">Kemampuan Negosiasi</span>
+                    <span class="px-4 py-2 bg-white border border-blue-200 rounded-xl shadow-sm font-medium text-gray-700">Kerja Sama Tim</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer / Contact -->
+    <footer id="contact" class="bg-gradient-to-r from-[#FFCED8] via-pink-100 to-[#B0CDE6] text-gray-800 py-6 border-t border-pink-200">
+        <div class="max-w-6xl mx-auto px-6 text-center space-y-3">
+            <h2 class="text-xl font-bold text-gray-900">Mari Terhubung</h2>
+            <p class="text-gray-700 text-xs md:text-sm">Terbuka untuk kolaborasi profesional, proyek analisis data & sistem, serta kegiatan organisasi.</p>
+            
+            <div class="pt-1 flex flex-wrap justify-center items-center gap-6 text-sm">
+                <a href="mailto:fatmalia048@gmail.com" class="flex items-center gap-2 font-medium text-pink-700 hover:text-pink-900 transition bg-white/60 px-4 py-1.5 rounded-full border border-pink-200 shadow-sm">
+                    <i class="fas fa-envelope text-pink-600"></i> fatmalia048@gmail.com
+                </a>
+                <a href="https://www.linkedin.com/in/fatmalia-%E2%80%8E-4796b8411/" target="_blank" class="flex items-center gap-2 font-medium text-blue-700 hover:text-blue-900 transition bg-white/60 px-4 py-1.5 rounded-full border border-blue-200 shadow-sm">
+                    <i class="fab fa-linkedin text-blue-600"></i> LinkedIn Profile
+                </a>
+            </div>
+
+            <p class="text-[11px] text-gray-600 pt-3">&copy; 2026 Fatmalia. All rights reserved.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
